@@ -1,0 +1,101 @@
+/*Common css starts*/
+body{
+	margin: 0;
+	 font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*Common css ends*/
+/*Header starts*/
+header{
+	padding: 40px 0;
+/*	border: 1px solid blue;*/
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+/*	border: 1px solid;*/
+}
+.logo{
+	margin-top: 8px;
+	float: left;
+	width: 12%;	
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 75%;
+
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	padding: 0 50px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #000000 ;
+}
+/*Header ends*/
+/*Banner starts*/
+.banner{
+
+}
+.b_image{
+
+}
+.b_image img{
+	width: 100%;
+}
+/*Banner ends*/
+/*Articler starts*/
+.article{
+	padding: 100px 0 0;
+/*	border: 1px solid green;*/
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+/*	border: 1px solid green;*/
+}
+.a_content{
+
+}
+.c_link{
+	display: inline-block;
+	font-family: "ubuntu" serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 24px;
+}
+.comment{
+	margin-top: 45px;
+}
+/*Articler ends*/
